@@ -1,0 +1,85 @@
+            p{
+                font-family: Roboto, Arial;
+            }
+         .thumbnail{
+            width: 100%;
+         }
+         .text{
+            margin-top: 0;
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 22px;
+         }
+
+
+        .video-info-grid{
+            display: grid;
+            grid-template-columns: 50px 1fr; 
+        }
+
+        .channel{
+            display: inline-block;
+            width: 50px;
+            vertical-align: top;
+            margin-top: 10px;
+        }
+        .video-info{
+            display: inline-block;
+            width: 200px;
+            margin-top: 9px;
+            margin-left: 10px;
+        }
+        .profile-picture{
+            width: 40px;
+            border-radius: 50px;
+        }
+        .thumbnail-row{
+            position: relative;
+        }
+        .video-author{
+            color: #606060;
+            margin-top: 7px;
+            margin-bottom: 5px;
+        }
+        .video-status{
+            color: #606060;
+            margin-top: 0px;
+        }
+        .video-grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 16px;
+            row-gap: 40px;
+        }
+
+        @media (max-width: 900px) {
+            .video-grid{
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        @media (min-width: 901px) and (max-width: 1300px) {
+            .video-grid{
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+        }
+
+
+        @media (min-width: 1301px) {
+            .video-grid{
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+            }
+        }
+
+        .video-time{
+            background-color: black;
+            color: white;
+            position: absolute;
+            bottom: 20px;
+            right: 5px;
+            font-size: 15px;
+            font-weight: 500;
+            padding: 5px;
+            /* we have usen padding insted of all padding left,right,top,bottom */
+            border-radius: 2px;
+        }
