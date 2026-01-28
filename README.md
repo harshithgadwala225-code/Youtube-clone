@@ -16,7 +16,7 @@ Navigation alignment
 Video card alignment
 Nested Flexbox layouts for complex UI sections
 
-CSS Grid:-
+*CSS Grid:-
 Video thumbnails layout
 Responsive video sections
 Responsive design techniques
