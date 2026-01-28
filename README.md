@@ -1,15 +1,15 @@
-📺YouTube Clone (HTML & CSS)
+*YouTube Clone (HTML & CSS)
 Project Description:-
 This project is a static YouTube clone UI built using HTML and CSS.
 The main goal was to practice modern CSS layout techniques by recreating the structure and design of the YouTube homepage.
 
 This project focuses purely on frontend layout and styling.
 
-🛠️ Technologies Used:-
+*Technologies Used:-
 HTML5 – semantic structure
 CSS3 – styling and layouts
 
-🎨 CSS Concepts Used:-
+*CSS Concepts Used:-
 CSS Flexbox
 Header layout
 Navigation alignment
@@ -23,7 +23,7 @@ Responsive design techniques
 Box model, positioning, and spacing
 Reusable CSS classes
 
-🚀 Future Enhancements:-
+*Future Enhancements:-
 Add JavaScript for user interaction
 Convert UI into a React.js application
 Implement backend using Spring Boot
